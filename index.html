@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vajro</title>
+    <!--------Boostrap4---------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!--------Boostrap4---end-->
+    <link rel="stylesheet" href="css/style.css">
+    <!------js--->
+    <script src="js/main.js"></script>
+<style>
+    .newclass {
+        height: 900px !important;
+    }
+</style>
+    
+</head>
+<body>
+ <!---Header-->
+ <div class="header">
+    
+        <div class="container">
+        <div class="top-header">
+                <img src="img/logo.png" class="logo" alt="">
+                <button type="button" class="btn btn-primary book-demo-btn">Book a demo</button>
+        </div>
+        <!------Banner------->
+        <div class="banner">
+            <div class="row">
+
+                <div class="col-sm-6 banner-left">
+                    <h1 class="banner_h1">
+                        Did you know that a Mobile
+                        App can boost your sales
+                        3 times more?
+                    </h1>
+                    <p class="banner_para_main">You can build your own Native Mobile app for your eCommerce store as easily with our Drag and Drop builder!</p>
+
+                        <p class="banner_para_one"><img src="img/banner_icon_1.png" alt="">&nbsp;&nbsp;&nbsp;Increased add-to-cart conversions by 70%</p>
+                
+                        <p class="banner_para_two"><img src="img/banner_icon_2.png" alt="">&nbsp;&nbsp;&nbsp;8 times faster checkouts</p>
+                
+                        <p class="banner_para_three"><img src="img/banner_icon_3.png" alt="">&nbsp;&nbsp;&nbsp;No# 1 rated Mobile App builder on Shopify Platform</p>
+                </p>
+                 </div>
+                </br>
+                 <div class="col-sm-6 banner-right mr-auto">
+                       <div class="card banner-right_card">
+                          <h1>Let’s talk about your mobile app.</h1>
+                          <form class="banner_form">
+                            <input type="text" id="fname" name="fname" placeholder="Full Name"><br>
+                            <input type="email" id="email" name="email" placeholder="Email Address"><br>
+                            <input type="number" id="mobile" name="Mobile" placeholder="Mobile"><br>
+                            <input type="text" id="website_URL" name="website_URL" placeholder="Your website URL*"><br>
+                            <input type="text" id="eCommerce" name="eCommerce" placeholder="eCommerce platform"><br>
+                            <textarea name="How did you hear about us?*" id="" cols="30" rows="10" placeholder="How did you hear about us?*"></textarea>
+                            <p>By submitting this form, you agree to receive promotional messages from Tapcart. Unsubscribe at any time by clicking on the link at the bottom of our emails.</p>
+                            <button type="button" class="btn btn-primary book-demo-btn form_submit">Book a demo <img src="img/arrow.png"></button>  
+                        </form>
+                       </div>
+                 </div>
+            </div>
+            </div>
+            <!------Banner--end----->
+        </div>
+
+ </div>
+ <!------Header--end-->
+<!-------Companies-->
+<div class="companies_logos">
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+        <h1 class="companies_h1">
+            Companies that trust us<span style="color: #F62369;">.</span>
+        </h1>
+        <div class="comapanies_brands">
+            <img src="img/prasanth_logo.png" alt="">
+            <img src="img/rhytham_logo.png" alt="">
+            <img src="img/and_me_logo.png" alt="">
+            <img src="img/masaba_logo.png" alt="">
+        </div>    
+    </div>
+    </div>
+    </div>
+</div>
+<!-------Companies--end--->
+<!-----vajro ---offer-->
+<div class="vajro_offer contentBox" style="height:900px;overflow:hidden;" id="vajro_offer_id">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 vajro_offer_left">
+             <h1 class="vajro_offer_left_h1">What does Vajro Offer<span style="color: #F62369;">?</span></h1>
+            <div class="vajro_offer_cards">
+                <div class="vajro_offer_card card">
+                     <div class="offer_card_number">
+                        <img src="img/offer_one.png" alt="">
+                     </div>
+                     <div class="vajro_offer_card_para">
+                        <h2>Native Mobile Apps</h2>
+                        <p>Easy to build Mobile apps for both Android and iOS mobile operating systems</p>
+                     </div>
+                </div>
+                <div class="vajro_offer_card card">
+                    <div class="offer_card_number">
+                       <img src="img/offer_two.png" class="offer_card_two_img" alt="">
+                    </div>
+                    <div class="vajro_offer_card_para">
+                       <h2>Customizable Design Elements</h2>
+                       <p>Get started with pre-designed templates and customize according to your brand - you can customize colors, layouts, fonts, buttons and more.</p>
+                    </div>
+               </div>
+               <div class="vajro_offer_card card">
+                <div class="offer_card_number">
+                   <img src="img/offer_three.png" alt="">
+                </div>
+                <div class="vajro_offer_card_para">
+                   <h2>Push Notifications</h2>
+                   <p>Push Notifications can improve your sales with zero cost. Now send automated Push notifications with advanced targeting campaigns and boost your conversions.</p>
+                </div>
+           </div>
+            </div>
+            </div>
+        <div class="col-sm-6 vajro_offer_right">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/offer_img.png" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/offer_slider2.png" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/offer_slider3.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/offer_slider4.png" alt="Third slide">
+                  </div>
+                  
+                </div>
+                <a class="carousel-control-prev" style="" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</div>
+<!------vajro---offer--end-->
+  
+<!------vajro----testimonials-->
+<div class="vajro_testimonials">
+ 
+</div>
+<!-----vajro review slider end-->
+
+<!---vajro_works-->
+<div class="vajro_works">
+  <div class="container">
+    <div class="vajro_works_title">
+    <h1 class="vajro_works_h1">How does Vajro work<span style="color: #F62369;">?</span></h1>
+    <h5>Enabling Mobile eCommerce for your Brand is now very easy! You can build your own mobile app for your shopify store in just 60 minutes.</h5>
+    </div>
+    <div class="works_cards">
+        <div class="row">
+            <div class="works_cards_left col-sm-6">
+                <div class="work_card card">
+                    <div class="work_card_number">
+                       <img src="img/intergration/work_1.png" alt="">
+                    </div>
+                    <div class="work_card_para work_card_para_first_child">
+                       <h2>Instantly shift your online eCommerce store to a mobile app</h2>
+                       <p>No Coding skills required! With an easy to navigate Drag & Drop app builder, you can create your own mobile app!</p>
+                    </div>
+               </div>
+               <div class="work_card card">
+                <div class="work_card_number">
+                   <img src="img/intergration/work_img_3.png" alt="">
+                </div>
+                <div class="work_card_para">
+                   <h2>Publish the app in Android and iOS app stores</h2>
+                   <p>Once the app is ready, we will help you push the app on the App stores for Customers to download and install them</p>
+                </div>
+           </div>
+            </div>
+            <div class="works_cards_right col-sm-6">
+                <div class="work_card card">
+                    <div class="work_card_number">
+                       <img src="img/intergration/work_img_2.png" alt="">
+                    </div>
+                    <div class="work_card_para">
+                       <h2>Need Assistance? Get immediate help from our Experts!</h2>
+                       <p>You can also reach out to our Experts who are always there to help you build what you want!</p>
+                    </div>
+               </div>
+               
+               <div class="work_card card">
+                <div class="work_card_number">
+                   <img src="img/intergration/work-4.png" alt="">
+                </div>
+                <div class="work_card_para">
+                   <h2>Get 60 days Trial Period and try us out!</h2>
+                   <p>We offer a massive 60 days trial period for you to experience us. Although, we are sure you would love the app in a few days.</p>
+                </div>
+           </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!---vajro--works--end----->
+
+
+<!----intergration-->
+<div class="intergration">
+    <div class="intergration_title">
+        <div class="container">
+    <h1 class="intergration_h1">Integrations<span style="color: #F62369;">.</span></h1>
+    <h5>Tons of Integrations possible with our Mobile app that will boost your Customer experience!</h5>
+    </div>
+    </div>
+    <div class="logo_intergration">
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="logo_intergration_one">
+                    <div class="row">
+                        <div class="col-sm-12">
+                           <img src="img/intergration/sezzle.png" alt="">
+                           <img src="img/intergration/Klarna.png" alt="">
+                           <img src="img/intergration/Lion.png" alt="">
+                           <img src="img/intergration/rewardify.png" alt="">
+                           <img src="img/intergration/whatsapp.png" alt="">
+                           <img src="img/intergration/Pay.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="logo_intergration_two">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="img/intergration/searchtop.png" alt="">
+                           <img src="img/intergration/yotpo.png" alt="">
+                           <img src="img/intergration/puzzle.png" alt="">
+                           <img src="img/intergration/Kiwi.png" alt="">
+                           <img src="img/intergration/firebase.png" alt="">
+                           <img src="img/intergration/map_gps.png" alt="">
+                           <img src="img/intergration/Tidio.png" alt="">
+                           <img src="img/intergration/insta.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="logo_intergration_three">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="img/intergration/Google_analytics.png" alt="">
+                            <img src="img/intergration/Judge.me.png" alt="">
+                            <img src="img/intergration/stamped.png" alt="">
+                            <img src="img/intergration/langify.png" alt="">
+                            <img src="img/intergration/allreviews.png" alt="">
+                            <img src="img/intergration/flurry.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---shofify-->
+<div class="shofify">
+    <div class="container">
+        <div class="row">
+             <div class="col-sm-12">
+                <img src="img/shofify.png" class="shofify_img"  alt="shofify_image">
+                <h1 class="shofify_h1">Join 100+ brands and scale your business like a Pro </h1>
+                <button type="button" class="btn btn-primary book-demo-btn shofify-btn">Book a demo</button>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+<!----shofify--end-->
+<!-----footer-->
+<div class="container">
+<div class="footer">
+    <div class="footer-logo">
+        <img src="img/footer_logo.png" alt="">
+        <div class="get_in_touch_footer">
+            <h5>Get in Touch</h5>
+            <div class="get_in_touch">
+                <img src="img/Group 31.png" alt="">
+                <img src="img/Group 32.png" alt="">
+                <img src="img/Group 33.png" alt="">
+                <img src="img/Group 34.png" alt="">
+            </div>
+        </div>
+</div>
+  <div class="Quick-links">
+    <h4 class="Quick-links-h4">Quick Links</h4>
+   <ul>
+       <li> <a href="">Information</a> </li>
+       <li> <a href="">Features</a></li>
+       <li> <a href="">How it work?</a></li>
+       <li> <a href="">Customers</a></li>
+       <li> <a href="">Join</a></li>
+       <li> <a href="">Book a Demo</a> </li>
+   </ul>
+</div>
+<div class="Office-footer">
+              <h4>Office</h4>
+                <ul>
+                    <li><strong>USA</strong></li>
+                    <li><a href="">251 Longview Road, Irving Texas 75063</a></li>
+                </br>
+                    <li><strong>India</strong></li>
+                    <li><a href="">India 2nd Floor, Greta Tech Park Phase - 1, North Wing #96, VSI Functional, Industrial Estate, Perungudi, Chennai, Tamil Nadu 600096</a></li>
+
+                </ul>
+</div>
+<div class="our-awards-footer">
+              <h4>Contact</h4>
+                <ul>
+                    <li><a href="">support@vajro.com</a></li>
+                    <li><a href="">+1 909 766 9566</a></li>
+                </ul>
+</div>
+
+</div>
+</div>
+<!----footer--end-->
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".contentBox").click(function(){
+          var boxHeight = $(this).height();
+          var minBoxHeight = 40;
+  
+          if (boxHeight <= minBoxHeight) {
+              $(this).css('height', 'auto');
+              var tmp_height = $(this).height();
+              $(this).css('height', boxHeight+'px');
+              
+              $(this).animate({
+                height : tmp_height+'px'
+                
+              }, 800);
+          } else {
+              $(this).css({
+                  height: '40px',
+                  transition: 'height 800ms, background 800ms, box-shadow 800ms'
+              });
+          }
+      });
+  });
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>    
+
+</body>
+</html>

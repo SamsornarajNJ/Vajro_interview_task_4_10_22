@@ -1,0 +1,434 @@
+*
+{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+.row
+{
+    overflow: visible;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header {
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(283.85deg, #310157 3.04%, #583077 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 0% 100%);
+}
+.top-header
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.header .logo {
+width: 160px;
+height: 53.67px;
+left: 240px;
+top: 40px;
+}
+.book-demo-btn 
+{
+width: 134px;
+height: 45px;
+left: 1546px;
+top: 44px;
+color: white;
+border: none;
+border-radius: 0%;
+background: #F62369;
+}
+.banner {
+    padding-bottom: 53px;
+}
+.banner_h1 
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 58px;
+    letter-spacing: .3px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+.banner_para_main
+ {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 15px;
+    letter-spacing: .2px;
+ }
+.banner_para_one {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    letter-spacing: .2px;
+}
+.banner_para_two {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    letter-spacing: .2px;
+}
+.banner_para_three {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    letter-spacing: .2px;
+}
+button.btn.btn-primary.book-demo-btn.form_submit {
+    padding: 0px 20px;
+    display: flex;
+    width: auto;
+    align-items: center;
+    gap: 25px;
+}
+.form_submit{
+  border-radius: 15px;
+}
+.banner-right_card {
+    height: auto;
+    background: linear-gradient(204.07deg, #583077 -49.04%, #310157 100%);
+    border-radius: 30px;
+    width: 518px;
+    padding: 40px;
+    margin-left: auto;
+}
+.banner_form input {
+    width: 438px;
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 23px;
+    padding: 0px 0px 0px 32px;
+}
+.banner_form textarea {
+    overflow: auto;
+    resize: vertical;
+    width: 438px;
+    height: 95px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 23px;
+    padding: 7px 0px 0px 32px;
+}
+.banner_form p {
+    color: white;
+    font-size: 10px;
+    letter-spacing: .2px;
+}
+.col-sm-6.banner-left {
+    padding-top: 100px;
+    padding-right: 35px;
+}
+.card.banner-right_card h1 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.companies_h1 {
+    font-size: 44px;
+    line-height: 64px;
+    margin: 0 auto;
+    padding-bottom: 38px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    color: #212529;
+}
+.companies_logos {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 95%);
+    padding: 36px 0px;
+}
+.comapanies_brands {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.comapanies_brands img{
+    height: 90px;
+}
+.vajro_offer {
+width: 100%;
+height: auto;
+padding: 80px 0px;
+background: linear-gradient(282.27deg, #310157 0.72%, #583077 100%);
+clip-path: polygon(0% 0%, 100% 3%, 100% 100%, 0% 100%);
+mask-image: linear-gradient(to bottom, #441867 50%, transparent 100%);
+-webkit-mask-image: linear-gradient(to bottom, #441867 50%, transparent 100%);
+}
+h1.vajro_offer_left_h1 {
+    font-weight: 700;
+    font-size: 46px;
+    letter-spacing: .1px;
+    color: white;
+    margin-bottom: 35px;
+}
+.vajro_offer_card {
+    height: 145px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #583077;
+    margin-bottom: 20px;
+}
+.vajro_offer_card_para {
+    color: white;
+    padding-left: 96px;
+    padding-right: 50px;
+}
+.vajro_offer_card_para h2 {
+    font-size: 26px;
+}
+.vajro_offer_card_para p {
+    padding-bottom: 0px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.offer_card_number img {
+    position: absolute;
+    left: -32px;
+    height: 92px;
+}
+.offer_card_two_img {
+    left: -47px !important;
+}
+.vajro_offer_right_img{
+    height: 500px;
+}
+
+/*testimonials***/
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(204.07deg, #583077 -49.04%, #310157 100%);
+    overflow: hidden;
+}
+/**offer carousel****/
+.card2
+{
+    border:none
+}
+.comment
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.comment_head
+{
+    font-family: 'Lobster', cursive;
+    color: #87af4a;
+}
+.comment_para
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 1.2px;
+}
+  /****testimonial***end***/
+/**shofify****/
+.shofify{
+padding: 106px 0px;
+text-align: center;
+background: linear-gradient(288.35deg, #310157 9.23%, #583077 100%);
+clip-path: polygon(0% 0%, 100% 3%, 100% 97%, 0% 100%);
+}
+img.shofify_img {
+    height: 80px;
+}
+.shofify_h1 {
+    font-weight: bold;
+    color: white;
+    padding: 42px 0px;
+    font-size: 41.1px;
+    letter-spacing: .2px;
+}
+.shofify-btn {
+    font-weight: 700;
+    font-size: 22px;
+    width: 207px;
+    height: auto;
+    padding: 12px 0px;
+    letter-spacing: .2px;
+}
+/***shofify********end****/
+
+
+/******vajro****works******/
+.vajro_works_title {
+    text-align: center;
+}
+.vajro_works {
+    padding: 80px 0px 16px 0px;
+}
+.vajro_works_h1 {
+    font-weight: 700;
+    font-size: 39px;
+    letter-spacing: .1px;
+    color: #212529;
+    padding-bottom: 25px;
+}
+.vajro_works h5 {
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: .2px;
+    color: #212529;
+    line-height: 31px;
+    padding: 0px 210px;
+}
+.works_cards {
+    padding-top: 80px;
+}
+.work_card {
+    height: 145px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+    border: none;
+    margin-bottom: 20px;
+}
+.work_card_para_first_child{
+    padding-left: 25px !important;
+}
+.work_card img
+{
+    height: 90px;
+}
+.work_card_para {
+    color: black;
+    padding-right: 86px;
+    padding-left: 35px;
+}
+.work_card_para h2 {
+    font-size: 26px;
+}
+.work_card_para p {
+    padding-bottom: 0px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.work_card_para h2 {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: .1px;
+}
+/*******vajro****works ***end****/
+
+/******integration******/
+.intergration {
+    width: 100%;
+    padding: 126px 0px;
+}
+.intergration_title {
+    text-align: center;
+}
+.intergration_h1 {
+    font-weight: 700;
+    font-size: 39px;
+    letter-spacing: .1px;
+    color: #212529;
+    padding-bottom: 25px;
+}
+.intergration h5 {
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: .2px;
+    color: #212529;
+    line-height: 31px;
+    padding: 0px 210px;
+}
+.logo_intergration {
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+}
+.logo_intergration_one, .logo_intergration_two, .logo_intergration_three {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo_intergration_one img {
+    padding: 13px 13px 13px 0px;
+    height: 124px;
+}
+.logo_intergration_two img {
+    padding: 0px 13px 13px 0px;
+    height: 110px;
+}
+.logo_intergration_three img {
+    padding: 0px 13px 13px 0px;
+    height: 110px;
+}
+
+/******integration end********/
+/* footer*/
+.footer {
+    background: white;
+    padding: 78px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 51px;
+}
+.footer-logo, .Quick-links, .Office-footer, .our-awards-footer {
+    width: 21%;
+}
+.Office-footer ul, .our-awards-footer ul {
+    list-style: none;
+}
+.footer h4 {
+    font-weight: 700;
+    font-size: 21px;
+    color: #212529;
+    padding-bottom: 14px;
+}
+.footer li {
+    line-height: 22px;
+    list-style: none;
+}
+.footer li a {
+    letter-spacing: .1px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #212529;
+}
+.footer-logo img {
+    height: 53.67px;
+    margin-top: 36px;
+}
+.Office-footer li a {
+line-height: .1px;
+}
+.get_in_touch_footer h5 {
+    font-weight: bold;
+    margin-top: 25px;
+}
+.get_in_touch img {
+    height: 32px;
+    padding: 0px 3px;
+    margin-top: 0px;
+}
+/*footer end ***/
+
+
